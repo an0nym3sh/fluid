@@ -1,7 +1,7 @@
 /*
 MIT License
 
-Copyright (c) 2017 Pavel Dobryakov
+Copyright (c) 2017 Animesh Ashish
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -42,13 +42,13 @@ promoPopupClose.addEventListener('click', e => {
 const appleLink = document.getElementById('apple_link');
 appleLink.addEventListener('click', e => {
     ga('send', 'event', 'link promo', 'app');
-    window.open('https://apps.apple.com/us/app/fluid-simulation/id1443124993');
+    window.open('https://animeshashish.me');
 });
 
 const googleLink = document.getElementById('google_link');
 googleLink.addEventListener('click', e => {
     ga('send', 'event', 'link promo', 'app');
-    window.open('https://play.google.com/store/apps/details?id=games.paveldogreat.fluidsimfree');
+    window.open('https://animeshashish.me');
 });
 
 // Simulation section
@@ -237,7 +237,7 @@ function startGUI () {
     captureFolder.add({ fun: captureScreenshot }, 'fun').name('take screenshot');
 
     let github = gui.add({ fun : () => {
-        window.open('https://github.com/PavelDoGreat/WebGL-Fluid-Simulation');
+        window.open('https://animeshashish.me');
         ga('send', 'event', 'link button', 'github');
     } }, 'fun').name('Github');
     github.__li.className = 'cr function bigFont';
@@ -248,7 +248,7 @@ function startGUI () {
 
     let twitter = gui.add({ fun : () => {
         ga('send', 'event', 'link button', 'twitter');
-        window.open('https://twitter.com/PavelDoGreat');
+        window.open('https://animeshashish.me');
     } }, 'fun').name('Twitter');
     twitter.__li.className = 'cr function bigFont';
     twitter.__li.style.borderLeft = '3px solid #8C8C8C';
@@ -258,7 +258,7 @@ function startGUI () {
 
     let discord = gui.add({ fun : () => {
         ga('send', 'event', 'link button', 'discord');
-        window.open('https://discordapp.com/invite/CeqZDDE');
+        window.open('animeshashish.me');
     } }, 'fun').name('Discord');
     discord.__li.className = 'cr function bigFont';
     discord.__li.style.borderLeft = '3px solid #8C8C8C';
@@ -268,7 +268,7 @@ function startGUI () {
 
     let app = gui.add({ fun : () => {
         ga('send', 'event', 'link button', 'app');
-        window.open('http://onelink.to/5b58bn');
+        window.open('http://animeshashish.me');
     } }, 'fun').name('Check out mobile app');
     app.__li.className = 'cr function appBigFont';
     app.__li.style.borderLeft = '3px solid #00FF7F';
